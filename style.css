@@ -1,0 +1,76 @@
+body {
+    background: linear-gradient(120deg, rgb(174, 0, 255), rgb(252, 60, 60));
+    height: 100vh;
+    font-family: Gill Sans;
+}
+
+.random_number {
+    position: relative;
+    width: 100%;
+    max-width: 540px;
+    background: white;
+    margin: 0px auto;
+    padding: 10px 50px 20px;
+    border-radius: 20px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.random_number::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 17%; 
+    background-color: #494949; 
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.random_number h1 {
+    color: #000000;
+    text-align: center; 
+    margin-bottom: 20px;
+    
+}
+
+.random_number h2 {
+    margin-bottom: 5px;
+    font-size: 20px;
+}
+
+.min-row, .max-row {
+    margin-bottom: 30px;
+}
+
+
+input {
+    padding: 10px;
+    margin: 5px;
+    font-size: 13px;
+}
+
+button {
+    position: relative;
+    z-index: 1;
+    margin-top: 20px;
+    background: transparent;
+    color: white;
+    border: none;
+    outline: none;
+    font-size: 25px;
+    font-family: Gill Sans;
+    font-weight: bold;
+}
+
+button:hover {
+    text-decoration: underline;
+}
+
+#result {
+    margin-top: 40px;
+    font-size: 180px;
+    color: white;
+    text-align: center;
+}
